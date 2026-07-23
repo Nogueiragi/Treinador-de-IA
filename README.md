@@ -36,18 +36,4 @@ necessário consultar nada externo.
    Insatisfatório). Salve o modelo treinado se estiver satisfeito.
 4. **Aba "4. Usar IA"** — carregue novos dados (sem o rótulo) e gere
    previsões com o modelo treinado, exportando os resultados em CSV.
-## Sobre o Google Colab
- 
-O Colab não possui tela gráfica, então esta janela PyQt6 não abre
-diretamente nele. O código foi escrito com **foco no PyCharm**. As notas de
-como adaptar a lógica para o Colab (com `ipywidgets`, por exemplo) estão
-comentadas no final do arquivo `app.py` e também na aba "Tutorial" do
-programa.
- 
-## Arquivos gerados ao salvar um modelo
- 
-- `modelo_treinado.keras` — o modelo em si.
-- `modelo_treinado_preprocessamento.pkl` — normalizador, codificador de
-  rótulo e lista de colunas usadas no treino. **Guarde os dois arquivos
-  juntos**: ambos são necessários para reutilizar a IA depois.
- 
+
