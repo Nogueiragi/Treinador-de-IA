@@ -4,6 +4,35 @@ Aplicativo com interface gráfica para treinar modelos de rede neural
 (regressão ou classificação) a partir de arquivos CSV/Excel, sem precisar
 escrever código a cada novo conjunto de dados.
 
+
+## Tecnologias
+
+- Python
+- TensorFlow
+- PyQt6
+- NumPy
+- Pandas
+- Scikit-learn
+- Matplotlib
+
+## Funcionalidades
+
+- Importação de datasets (.csv)
+- Pré-processamento automático
+- Treinamento de modelos de regressão
+- Treinamento de modelos de classificação
+- Visualização das métricas
+- Interface gráfica amigável
+
+## Objetivo
+
+Facilitar o aprendizado de Machine Learning permitindo o treinamento de modelos sem necessidade de programação direta.
+
+## Como executar
+
+```bash
+pip install -r requirements.txt
+python main.py
 ## Instalação (PyCharm / qualquer ambiente local)
 
 ```bash
